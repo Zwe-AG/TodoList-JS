@@ -1,0 +1,36 @@
+body {
+  padding: 100px;
+  background-color: rgb(29, 29, 29);
+}
+
+.shoppingListContainer {
+  margin-top: 30px;
+}
+
+.form-label {
+  color: white;
+}
+
+.productName {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+  display: inline;
+}
+
+.purchased {
+  text-decoration: line-through;
+}
+
+.fa-trash-can {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.productContainer {
+  margin-bottom: 25px;
+}
